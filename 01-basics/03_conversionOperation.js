@@ -31,3 +31,41 @@ let someNumber=33
 
 let stringNumber= String(someNumber)
 console.log(typeof stringNumber)
+
+
+// ***************** operations *******************
+
+ let val=3;
+ let negval=-val;
+
+ console.log(negval);
+
+ /* bsic operations
+ console.log(1+1);
+ console.log(2-1);
+ console.log(2*2);
+ console.log(3**3);
+ console.log(10%7);
+     */
+
+ // some important output based operations
+ console.log("1"+1);
+ console.log(1+"2");
+ console.log("1"+1+2);
+ console.log(2+1+"1");
+
+
+ console.log(true);
+ console.log(+true);
+//  console.log(true+);  // error
+
+
+// assignment
+let num1,num2,num3;
+num1=num2=num3=2+2;
+
+// prefix increamnet ,postfix increament
+
+let gamecounter=100;
+console.log(gamecounter++);
+console.log(++gamecounter);
