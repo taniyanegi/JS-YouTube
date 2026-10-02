@@ -64,3 +64,24 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser))
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+// example 
+const course = {
+    coursename: "JS in Hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor- normal way of accesing 
+
+const{courseInstructor : instructor}= course
+
+console.log(instructor)
+
+ // API structure
+// {
+//     "name" : "hitesh" ,
+//     "courseName" : "JS in hindi" ,
+//     "price" : "free"
+// }
