@@ -70,4 +70,4 @@ if(isUserloggedIn && debitCard){
 
 if(loggedInFromGoogle || loggedInFromGoogle){
     console.log("User logged In")
-}
+} 
